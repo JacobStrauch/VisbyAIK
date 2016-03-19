@@ -1,0 +1,29 @@
+För att starta nytt projekt
+1. Skapa projektmapp
+2. kopiera in .gitignore gruntfile.js package.json (i terminalen kopiera standardfiler till projektmapp)
+3. Kör mkdir static
+4. Kör sudo npm install
+5. Kör npm install bootstrap
+6. Flytta över node_modules/bootstrap/dist till static
+7. Flytta över node_modules/bootstrap/less till static
+8. Kör grunt less i terminalen
+9. Skapa mappen "pages" i /static/less
+10. Skapa fil t ex main.less i Pages
+11. Öppna filen bootstrap.less i atom och importera /pages/main.less (stylesheet)
+12. Skapa en index.html i projektrooten
+
+Githup NYTT repository
+1. Skapa repository på sidan
+2. I projektrooten så skriver man git init
+3. Skriv git add --all
+4. git commit -m "Det jag nyss gjort"
+5. git push -u origin master
+
+Github redan ordnat repo
+1. git add --all
+2. git commit -m "det jag gjort"
+3. git push
+
+Starta Atom & Terminal
+Starta grunt & grunt server. cmd "grunt" sedan ny tab där jag skriver "grunt serve".
+STÅ I RÄTT MAPP /programmering/Projekt
